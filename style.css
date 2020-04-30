@@ -1,3 +1,12 @@
 body{
-background-color:red;
+background: linear-gradient(270deg, #5bd9b9, #d6d95b);
+background-size: 400% 400%;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.2;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
