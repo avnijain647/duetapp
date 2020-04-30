@@ -24,9 +24,8 @@ color:#fff;
 }
 
 .hero{
+  max-width:90%;
   padding-top:120px;
- width:100vw;
-  height:100vh;
   background-color:red;
  display:flex;
   flex-wrap:nowrap;
@@ -34,6 +33,7 @@ color:#fff;
   align-items: center;
 }
 .intro{
+    background-color:blue;
   width:270px;
 font-weight:700;
 }
