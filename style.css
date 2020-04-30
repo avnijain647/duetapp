@@ -27,13 +27,12 @@ background-size: 400% 400%;
 width:100px;
 }
 
-.header .signup{
+.header .signup a{
 float:right;
 }
 
-.sign-up a{
+.signup a{
  color: #47353a;
   text-decoration: none;
-
   text-transform: none;
 }
