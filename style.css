@@ -1,8 +1,17 @@
 body{
   font-family: 'Oxygen', sans-serif;
-background: linear-gradient(191deg, #eef257, #c4d8e8);
     font-size:16px;
   line-height:1.4;
+}
+
+.bg{
+  position:fixed;
+  left:0;
+  top:0;
+  width:100vw;
+  height:100vh;
+  z-index:0;
+background: linear-gradient(191deg, #eef257, #c4d8e8);
 }
 
 .header{
@@ -11,7 +20,7 @@ background: linear-gradient(191deg, #eef257, #c4d8e8);
  width:100%;
   top:0;
   left:0;
-
+z-index:1;
  display:flex;
   flex-wrap:nowrap;
   justify-content:space-between;
