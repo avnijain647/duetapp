@@ -19,7 +19,8 @@ background-size: 400% 400%;
   left: 0px; 
   display:flex;
   flex-wrap:nowrap;
-  align-content: space-between;
+  justify-content:space-between;
+  align-items: baseline;
 }
 
 
