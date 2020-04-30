@@ -54,7 +54,6 @@ position:relative;
 }
 
 .intro{
-padding-left:80px;
 width:360px;
 }
 
@@ -63,12 +62,8 @@ font-size:21px;
 font-weight:700;
 }
 
-b{
- padding-bottom:20px; 
-}
 
 .heroimage img{
- padding-right:80px;
 width:500px;
 }
 .section{
