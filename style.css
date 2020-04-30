@@ -33,6 +33,8 @@ float:right;
 }
 
 .signup{
+  padding-right:60px;
+  text-align-right;
  color: #fff;
   text-decoration: none;
   text-transform: none;
