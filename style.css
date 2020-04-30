@@ -7,9 +7,10 @@ background: linear-gradient(270deg, #5bd9b9, #d6d95b);
   line-height: 1.5;
 }
 .header{
+  padding: 25px 60px 25px 60px;
   background-color: #222;
-  position: fixed;
-  width: 100%;
+  position: absolute;
+  width: 100vw;
   top: 0px;
   left: 0px; 
   display:flex;
