@@ -5,13 +5,12 @@ background-size: 400% 400%;
   font-size: 16px;
   color: #444;
   line-height: 1.2;
-  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
 }
 .header{
- padding: 10px 15px 10px 15px;
+ padding: 25px 60px 25px 60px;
   background-color: #ffffff;
   Overflow:  hidden;
   position: fixed;
