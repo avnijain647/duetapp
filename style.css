@@ -69,6 +69,7 @@ position:relative;
 }
 
 .intro{
+	background-blend-mode: difference;
 width:360px;
 }
 
@@ -82,5 +83,6 @@ font-weight:700;
 width:500px;
 }
 .section{
+	background-blend-mode: difference;
 margin:40px 200px 40px 200px;
 }
