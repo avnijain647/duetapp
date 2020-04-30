@@ -37,9 +37,7 @@ color:#fff;
   width:270px;
 font-weight:700;
 }
-.heroimage{
-  float:right;
-      background-color:blue;
+.heroimage img{
   width:500px;
   height:563px;
 }
