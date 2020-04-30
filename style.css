@@ -11,9 +11,9 @@ body{
   width:100vw;
   height:100vh;
   z-index:0;
-	background: linear-gradient(-180deg, #cbdaec, #ece842, #ff977f, #f39af0, #a19ff5, #5b8e6a);
+	background: linear-gradient(0deg, #cbdaec, #ece842, #ff977f, #f39af0, #a19ff5, #5b8e6a);
 	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
+	animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
