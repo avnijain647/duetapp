@@ -29,10 +29,11 @@ width:100px;
 
 .header .signup{
 float:right;
+  color: #fff;
 }
 
 .signup{
- color: #47353a;
+ color: #fff;
   text-decoration: none;
   text-transform: none;
 }
