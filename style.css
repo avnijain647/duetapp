@@ -13,29 +13,19 @@ background-size: 400% 400%;
 .header{
  padding: 25px 60px 25px 60px;
   background-color: #222;
-  Overflow:  hidden;
   position: fixed;
   width: 100%;
   top: 0px;
   left: 0px; 
 }
 
-.header .duet{
- float:left; 
-}
+
 .duet img{
 width:100px;
 }
 
-.header .signup{
-float:right;
-  color: #fff;
+.signup{
+ background-color:red; 
 }
 
-.signup{
-  padding-right:60px;
-  text-align-right;
- color: #fff;
-  text-decoration: none;
-  text-transform: none;
-}
+
