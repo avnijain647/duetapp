@@ -12,7 +12,7 @@ background-size: 400% 400%;
 }
 .header{
  padding: 25px 60px 25px 60px;
-  background-color: yellow;
+  background-color: #222;
   Overflow:  hidden;
   position: fixed;
   width: 100%;
