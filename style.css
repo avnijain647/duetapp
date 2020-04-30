@@ -1,6 +1,10 @@
 body{
+  position:relative;
+  top:0;
+  Left:0;
 background: linear-gradient(270deg, #5bd9b9, #d6d95b);
   width:100vw;
+  height:100%;
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
   color: #444;
@@ -10,6 +14,9 @@ background: linear-gradient(270deg, #5bd9b9, #d6d95b);
   padding: 25px 60px 25px 60px;
   background-color: #222;
   position: absolute;
+  width:100%;
+  top:0;
+  left:0;
   display:flex;
   flex-wrap:nowrap;
   justify-content:space-around;
@@ -25,7 +32,8 @@ color:#fff;
 }
 
 .hero{
- with:100vw;
+  padding-top:120px;
+ width:100vw;
   height:100vh;
   background-color:red;
  display:flex;
