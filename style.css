@@ -27,7 +27,6 @@ width:100px;
 
 .signup{
 color:#fff;
-
   width:70px;
   padding-right:60px;
 }
@@ -35,21 +34,29 @@ color:#fff;
 .hero{
   max-width:100%;
   margin-top:120px;
+  margin-right:100px;
+    margin-left:100px;
  display:flex;
   flex-wrap:nowrap;
-  justify-content:space-around;
+  justify-content:space-between;
   align-items: center;
 }
+
 .intro{
-    padding-left:80px;
+padding-left:80px;
 width:360px;
 }
+
 .intro b{
-  font-size:21px;
+font-size:21px;
 font-weight:700;
-  padding-bottom:20px;
 }
+
+b{
+ padding-bottom:20px; 
+}
+
 .heroimage img{
-    padding-right:80px;
-  width:500px;
+ padding-right:80px;
+width:500px;
 }
