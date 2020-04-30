@@ -1,6 +1,6 @@
 body{
   font-family: 'Oxygen', sans-serif;
-background: yellow;
+background: linear-gradient(191deg, #eef257, #c4d8e8);
     font-size:16px;
 }
 
@@ -10,7 +10,7 @@ background: yellow;
  width:100%;
   top:0;
   left:0;
-  background-color:red;
+
  display:flex;
   flex-wrap:nowrap;
   justify-content:space-between;
@@ -27,7 +27,7 @@ width:100px;
 
 .signup{
 color:#fff;
-    background-color:blue;
+
   width:70px;
   padding-right:60px;
 }
@@ -35,7 +35,6 @@ color:#fff;
 .hero{
   max-width:100%;
   margin-top:120px;
-  background-color:red;
  display:flex;
   flex-wrap:nowrap;
   justify-content:space-around;
@@ -43,7 +42,7 @@ color:#fff;
 }
 .intro{
     padding-left:80px;
-width:270px;
+width:360px;
 }
 .intro b{
   font-size:21px;
