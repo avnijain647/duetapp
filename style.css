@@ -20,19 +20,20 @@ background-size: 400% 400%;
   left: 0px; 
 }
 
-.duet{
+.header .duet{
  float:left; 
 }
 .duet img{
 width:100px;
 }
-.sign-up{
+
+.header .signup{
 float:right;
 }
 
 .sign-up a{
  color: #47353a;
   text-decoration: none;
-  margin: 25px 25px 0 0;
+
   text-transform: none;
 }
