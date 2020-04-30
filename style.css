@@ -59,8 +59,8 @@ position:relative;
 .hero{
   max-width:100%;
   margin-top:120px;
-  margin-right:100px;
-    margin-left:100px;
+  margin-right:200px;
+    margin-left:200px;
  display:flex;
   flex-wrap:nowrap;
   justify-content:space-between;
@@ -81,5 +81,5 @@ font-weight:700;
 width:500px;
 }
 .section{
-margin:40px 100px 40px 100px;
+margin:40px 200px 40px 200px;
 }
