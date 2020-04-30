@@ -29,7 +29,7 @@ color:#fff;
   background-color:red;
  display:flex;
   flex-wrap:nowrap;
-  justify-content:space-around;
+  justify-content:space-between;
   align-items: center;
 }
 .intro{
