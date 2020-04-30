@@ -1,6 +1,7 @@
 body{
 background: linear-gradient(270deg, #5bd9b9, #d6d95b);
 background-size: 400% 400%;
+  width:100vw;
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
   color: #444;
