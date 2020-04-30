@@ -2,6 +2,7 @@ body{
   font-family: 'Oxygen', sans-serif;
 background: linear-gradient(191deg, #eef257, #c4d8e8);
     font-size:16px;
+  line-height:1.4;
 }
 
 .header{
@@ -59,4 +60,7 @@ b{
 .heroimage img{
  padding-right:80px;
 width:500px;
+}
+.section{
+margin:40px 100px 40px 100px;
 }
