@@ -17,15 +17,19 @@ background-size: 400% 400%;
   width: 100%;
   top: 0px;
   left: 0px; 
+  display:flex;
+  flex-wrap:nowrap;
+  align-content: space-between;
 }
 
 
 .duet img{
+  display:block;
 width:100px;
 }
 
 .signup{
-  position:relative;
+  display:block;
  background-color:red; 
 }
 
