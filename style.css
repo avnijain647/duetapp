@@ -28,6 +28,7 @@ color:#fff;
   padding-top:120px;
   background-color:red;
  display:flex;
+  fle
   flex-wrap:nowrap;
   justify-content:space-between;
   align-items: center;
@@ -38,6 +39,8 @@ color:#fff;
 font-weight:700;
 }
 .heroimage{
+  float:right;
       background-color:blue;
   width:500px;
+  height:563px;
 }
