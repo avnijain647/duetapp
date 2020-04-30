@@ -81,6 +81,7 @@ font-weight:700;
 
 
 .heroimage img{
+	background-blend-mode: difference;
 width:500px;
 }
 .section{
