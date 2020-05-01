@@ -5,7 +5,6 @@ body{
 color:#fff;
 background: linear-gradient(0deg, #734367, #f39af0, #a19ff5, #5b8e6a);
 	margin:0;
-
 }
 
 a{
@@ -80,6 +79,7 @@ width:500px;
 
  b{
 font-size:44px;
+	 line-height:60px;
 font-weight:700;
 }
 
