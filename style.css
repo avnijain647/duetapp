@@ -90,7 +90,6 @@ font-weight:700;
 
 
 .heroimage img{
-	background-blend-mode:lighten;
 width:500px;
 }
 .section,
@@ -183,4 +182,30 @@ width:70px;
 
 .logos .artsgrant{
 width:160px;
+}
+
+@media (max-width:350px){
+	
+.hero{
+   max-width:90%;
+  margin-top:180px;
+ display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items: center;
+}
+.heroimage img{
+width:300px;
+}
+
+	.logos {
+		flex-direction:column;
+ display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items: center;
+	padding-bottom:20px;
+}
+
+
 }
