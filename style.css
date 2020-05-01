@@ -5,6 +5,12 @@ body{
 	color:#fff;
 }
 
+a{
+color:#fff;
+	text-decoration:none;
+	border-bottom:2px solid;
+	 border-image-source: linear-gradient(180deg, rgba(255,255,255,0), rgba(225,240,245,1));
+}
 .bg{
   position:fixed;
   left:0;
@@ -93,6 +99,8 @@ width:500px;
 	margin-right:auto;
 }
 .section img{
+	padding-left:25px;
+	padding-right:25px;
 width:30px;
 }
 .cta{
