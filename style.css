@@ -136,7 +136,8 @@ text-align:center;
 .dot1,
 .dot3,
 .dot5{
-  max-width:15%;
+	text-align:left;	
+  max-width:20%;
 		margin-left:auto;
 	margin-right:auto;
 }
