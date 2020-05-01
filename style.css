@@ -3,6 +3,8 @@ body{
     font-size:16px;
   line-height:1.6;
 	color:#fff;
+		background: linear-gradient(0deg, #734367, #f39af0, #a19ff5, #5b8e6a);
+
 }
 
 a{
@@ -53,29 +55,34 @@ border-image: linear-gradient(120deg, rgb(0,143,104,0), rgb(250,224,66, 1)) 1;
 }
 
 .header{
-	  background-image: linear-gradient(180deg, rgba(255,255,255,0), rgba(225,240,245,1));
+	  
   padding: 25px 0px 25px 0px;
   position: fixed;
  width:100%;
   top:0;
   left:0;
 z-index:5;
+
+}
+.headerbox{
  display:flex;
   flex-wrap:nowrap;
   justify-content:space-between;
   align-items: center;
+	max-width:70%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-
 .duet img{
-    padding-left:60px;
+
 width:100px;
 }
 
 .signup{
 color:#fff;
   width:70px;
-  padding-right:60px;
+
 }
 .content{
 	
