@@ -9,8 +9,7 @@ a{
 color:#fff;
 	text-decoration:none;
 	border-bottom:10px solid;
-	 border-image-source: linear-gradient(0deg, rgba(255,255,255,0), rgba(225,240,245,1));
-	 border-image-slice: 1;
+ border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
 }
 .bg{
   position:fixed;
