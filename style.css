@@ -20,7 +20,7 @@ color:#fff;
   height:100vh;
   z-index:0;
 	
-	background: linear-gradient(0deg, #ff977f, #f39af0, #a19ff5, #5b8e6a);
+	background: linear-gradient(0deg, #734367, #f39af0, #a19ff5, #5b8e6a);
 	background-size: 400% 400%;
 	animation: gradient 25s ease infinite;
 	background-blend-mode: difference;
