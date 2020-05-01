@@ -95,6 +95,15 @@ intro img{
 width:20px;
 }
 
+.visual img{
+	
+	padding-top:40px;
+	padding-bottom:40px;
+  max-width:50%;
+		margin-left:auto;
+	margin-right:auto;
+}
+
 .dots{
 
 	padding-top:40px;
