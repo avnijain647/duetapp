@@ -7,11 +7,25 @@ body{
 
 a{
 color:#fff;
-	text-decoration:none;
-	padding-bottom:4px;
-	border-bottom:8px solid;
- border-image: linear-gradient(120deg, rgb(0,143,104,0), rgb(250,224,66, 1)) 1;
+text-decoration:none;
+padding-bottom:4px;
+border-bottom:8px solid;
+border-image: linear-gradient(120deg, rgb(0,143,104,0), rgb(250,224,66, 1)) 1;
+	animation: gradient2 25s ease infinite;
 }
+
+@keyframes gradient2 {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .bg{
   position:fixed;
   left:0;
@@ -186,9 +200,24 @@ width:160px;
 
 @media (max-width:400px){
 	
+	a{
+padding-bottom:2px;
+border-bottom:4px solid;
+border-image: linear-gradient(120deg, rgb(0,143,104,0), rgb(250,224,66, 1)) 1;
+}
+
+.duet img{
+    padding-left:20px;
+width:80px;
+}
+
+.signup{
+  padding-right:20px;
+}
+	
 .hero{
    max-width:90%;
-  margin-top:180px;
+  margin-top:100px;
  display:flex;
   flex-wrap:wrap;
   justify-content:center;
@@ -197,9 +226,14 @@ width:160px;
 .heroimage img{
 width:300px;
 }
+	.visual,
+	.section,
+	.press{
+   max-width:90%;
+	}
 
 	.logos {
-		flex-direction:column;
+flex-direction:column;
  display:flex;
   flex-wrap:wrap;
   justify-content:center;
