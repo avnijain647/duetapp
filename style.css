@@ -91,14 +91,17 @@ width:500px;
 	margin-left:auto;
 	margin-right:auto;
 }
-intro img{
-width:20px;
+.intro img{
+width:30px;
 }
-
-.visual img{
-	
-	padding-top:40px;
+.visual{
+		padding-top:40px;
 	padding-bottom:40px;
+  max-width:50%;
+		margin-left:auto;
+	margin-right:auto;
+}
+.visual img{
   max-width:50%;
 		margin-left:auto;
 	margin-right:auto;
@@ -141,7 +144,8 @@ width:20px;
   align-items:flex-start;
 }
 .quotes{
-	padding:20px;
+	padding-top:20px;
+	padding-bottom:20px;
 	width:40%;
 }
 .footer{
@@ -160,5 +164,5 @@ width:70px;
 }
 
 .logos .artsgrant{
-width:100px;
+width:160px;
 }
