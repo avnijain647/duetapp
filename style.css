@@ -168,6 +168,9 @@ text-align:center;
   max-width:70%;
 	margin-left:auto;
 	margin-right:auto;
+
+}
+.pressbox{
 	 display:flex;
   flex-wrap:wrap;
   justify-content:space-between;
@@ -228,10 +231,26 @@ width:300px;
 }
 	.visual,
 	.section,
-	.press{
+	.footer{
    max-width:90%;
 	}
-
+	
+	.press{
+		width:100%;
+		height:50vh;
+	background-color:red;
+	}
+	.pressbox{
+		width:90%;
+	 display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:flex-start;
+	}
+	.quotes{
+		width:90%;
+	}
+	
 	.logos {
 flex-direction:column;
  display:flex;
