@@ -105,6 +105,13 @@ width:500px;
   max-width:70%;
 	margin-left:auto;
 	margin-right:auto;
+	 display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+.quotes{
+	width:45%;
 }
 .footer{
 font-size:15.5px;	
@@ -112,7 +119,7 @@ font-size:15.5px;
 .logos {
  display:flex;
   flex-wrap:nowrap;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items: center;
 }
 
