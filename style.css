@@ -64,7 +64,7 @@ border-image: linear-gradient(120deg, rgb(0,143,104,0), rgb(250,224,66, 1)) 1;
 z-index:5;
 
 }
-.headerbox{
+.header-box{
  display:flex;
   flex-wrap:nowrap;
   justify-content:space-between;
