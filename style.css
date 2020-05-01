@@ -10,7 +10,7 @@ color:#fff;
 	text-decoration:none;
 	padding-bottom:4px;
 	border-bottom:8px solid;
- border-image: linear-gradient(-180deg, rgb(0,143,104,0), rgb(250,224,66, 1)) 1;
+ border-image: linear-gradient(120deg, rgb(0,143,104,0), rgb(250,224,66, 1)) 1;
 }
 .bg{
   position:fixed;
