@@ -256,7 +256,7 @@ width:3200px;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
-animation: press 21s steps(5) infinite;
+animation: press 40s steps(5) infinite;
 }
 
 @keyframes press {
