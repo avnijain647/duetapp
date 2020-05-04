@@ -2,11 +2,11 @@ body{
   font-family: 'Oxygen', sans-serif;
     font-size:21px;
   line-height:32px;
-color:#fff;
-background: linear-gradient(180deg,   #E2A6D9, #E2A6D9, #5b8e6a, #5b8e6a, #765781, #765781, #5673a6,#5673a6, #A2a9d2, #51132a  );
+color:#444;
+background: linear-gradient(180deg,   #E2A6D9, #E2A6D9,  #babafb,   #A2a9d2 );
 	margin:0;
 }
-
+/* #5b8e6a, #5b8e6a, */
 
 .signup a{
 color:#444;
@@ -49,7 +49,7 @@ height:50px;
 }
 
 .intro a{
-color:#fff;
+color:#444;
 text-decoration:none;
 padding:0px 0px 4px 0px;
 border-top:0px solid;
@@ -214,10 +214,25 @@ width:300px;
 		margin-left:auto;
 	margin-right:auto;
 }
-
-.dot2,
-.dot4,
+.dot3{
+  text-align:left;
+  max-width:30%;
+    margin-left:auto;
+  margin-right:auto;
+}
+.dot4{
+  text-align:right;
+  max-width:30%;
+    margin-left:auto;
+  margin-right:auto;
+}
 .dot6{
+  text-align:left;
+  max-width:70%;
+    margin-left:auto;
+  margin-right:auto;
+}
+.dot2{
 	text-align:right;
   max-width:90%;
 		margin-left:auto;
@@ -225,27 +240,45 @@ width:300px;
 }
 
 .press{
-  /* background-color: blue; */
-  max-width:640px;
+  /* background-color: yellow; */
+  width:640px;
   height:240px;
 	margin-left:auto;
 	margin-right:auto;
-
+  overflow: hidden;
 }
+
 .pressbox{
+width:3200px;
    /* background-color: blue; */
   height:240px;
-position:relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+animation: press 21s steps(5) infinite;
+}
+
+@keyframes press {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+  transform: translateX(-3200px);
+
+	}
 }
 .quotes{
+  font-size: 17px;
   text-align:center;
-  max-width:640px;
+width:640px;
   height:240px;
-position: absolute;
-top:0;
-left:0;
+/* position: absolute; */
+/* top:0;
+left:0; */
 
-/* background-color: red; */
+/* background-color: green; */
 }
 
 .quote-profile{
