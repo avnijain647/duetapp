@@ -274,11 +274,6 @@ animation: press 40s steps(5) infinite;
   text-align:center;
 width:640px;
   height:240px;
-/* position: absolute; */
-/* top:0;
-left:0; */
-
-/* background-color: green; */
 }
 
 .quote-profile{
@@ -309,12 +304,55 @@ width:140px;
 .logos .artsgrant{
 width:230px;
 }
+@media (max-width:650px){
+  .header-box,
+  .hero,
+  	.section,
+  	.footer{
+     max-width:90%;
+  	}
+    .press{
+      /* background-color: yellow; */
+      width:320px;
+      height:360px;
+    	margin-left:auto;
+    	margin-right:auto;
+      overflow: hidden;
+    }
 
+    .pressbox{
+    width:1600px;
+       /* background-color: blue; */
+      height:320px;
+
+    animation: press 40s steps(5) infinite;
+    }
+
+    @keyframes press {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+      transform: translateX(-1600px);
+
+    	}
+    }
+
+      .quotes{
+        font-size: 17px;
+        text-align:center;
+      width:320px;
+        height:320px;
+      }
+
+}
 @media (max-width:420px){
 body{
-  font-size:21px;
-line-height:32px;
+  font-size:17px;
+line-height:28px;
 }
+
 .duet img{
 padding-left:20px;
 width:80px;
@@ -324,35 +362,10 @@ width:80px;
 padding-right:20px;
 }
 
-/* .hero{
-   max-width:100%;
-  margin-top:100px;
-}
 
-.heroimage img{
-width:100%;
-} */
-.hero,
-	.section,
-	.footer{
-   max-width:90%;
-	}
 
-	.press{
-		width:100%;
-		height:50vh;
-	background-color:red;
-	}
-	.pressbox{
-		width:90%;
-	 display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  align-items:flex-start;
-	}
-	.quotes{
-		width:90%;
-	}
+
+
 
 	.logos {
 flex-direction:column;
