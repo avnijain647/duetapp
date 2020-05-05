@@ -159,7 +159,7 @@ width:30px;
   flex-wrap:nowrap;
   justify-content:center;
   align-items:center; */
-  width:300px;
+  width:360px;
 text-align:center;
 margin-left: auto;
 margin-right: auto;
@@ -348,6 +348,7 @@ width:230px;
   	.footer{
      max-width:82%;
   	}
+
     .press{
       /* background-color: yellow; */
       width:300px;
@@ -399,7 +400,11 @@ body{
   font-size:17px;
 line-height:28px;
 }
+.cta1{
 
+  width:300px;
+
+}
 .duet img{
 /* padding-left:20px; */
 width:80px;
