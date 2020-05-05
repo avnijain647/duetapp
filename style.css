@@ -255,7 +255,7 @@ width:3200px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 animation: press 40s steps(5) infinite;
 }
 
@@ -275,23 +275,50 @@ animation: press 40s steps(5) infinite;
 width:640px;
   height:240px;
 }
+.quote-indicators{
+  width:640px;
+  height:40px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow: hidden;
 
+}
 .quote-profile{
+    animation: press 40s steps(5) infinite;
+  margin-left:auto;
+  margin-right:auto;
+  width:3200px;
+    height:40px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+/* background-color: yellow; */
+
+}
+
+.quoteblock1{
+    /* background-color: red; */
   width:640px;
     height:40px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-background-color: yellow;
-
 }
-
-.quote1{
-  background-color: yellow;
-  width:40px;
-  height:20px;
+.quote0{
+  margin: 0 20px 0 20px;
+  background-color: #fafccb;
+  width:12px;
+  height:12px;
   border-radius: 10px;
+}
+.quote1{
+  margin: 0 20px 0 20px;
+  background-color: #fafccb;
+  width:5px;
+  height:5px;
+  border-radius: 5px;
 }
 .footer{
 font-size:14px;
@@ -322,17 +349,17 @@ width:230px;
   	}
     .press{
       /* background-color: yellow; */
-      width:320px;
-      height:360px;
+      width:300px;
+      height:400px;
     	margin-left:auto;
     	margin-right:auto;
       overflow: hidden;
     }
 
     .pressbox{
-    width:1600px;
+    width:1500px;
        /* background-color: blue; */
-      height:320px;
+      height:400px;
 
     animation: press 40s steps(5) infinite;
     }
@@ -343,17 +370,27 @@ width:230px;
       }
 
       100% {
-      transform: translateX(-1600px);
+      transform: translateX(-1500px);
 
     	}
     }
 
-      .quotes{
-        font-size: 17px;
-        text-align:center;
-      width:320px;
-        height:320px;
-      }
+
+    .quote-indicators{
+      width:300px;
+    }
+    .quote-profile{
+        animation: press 40s steps(5) infinite;
+      width:1500px;
+
+
+    }
+
+    .quoteblock1{
+
+      width:300px;
+
+    }
 
 }
 @media (max-width:450px){
@@ -374,7 +411,9 @@ padding-right:20px;
 
 
 
-
+.logos img{
+  	padding-bottom:20px;
+}
 
 	.logos {
 flex-direction:column;
@@ -382,7 +421,7 @@ flex-direction:column;
   flex-wrap:wrap;
   justify-content:center;
   align-items: center;
-	padding-bottom:20px;
+	padding-bottom:40px;
 }
 
 
