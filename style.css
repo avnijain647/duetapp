@@ -159,7 +159,7 @@ width:30px;
   flex-wrap:nowrap;
   justify-content:center;
   align-items:center; */
-  width:360px;
+  width:300px;
 text-align:center;
 margin-left: auto;
 margin-right: auto;
@@ -406,6 +406,7 @@ width:80px;
 }
 
 .logos img{
+  padding:0 20px 0 20px;
 width:90px;
 
 }
@@ -423,7 +424,7 @@ width:230px;
 /* flex-direction:column; */
  display:flex;
   flex-wrap:wrap;
-  justify-content:space-around;
+  justify-content:center;
   align-items: center;
 	padding-bottom:40px;
 }
