@@ -199,8 +199,8 @@ width:300px;
 }
 
 .dots{
-	padding-top:80px;
-	padding-bottom:80px;
+	padding-top:40px;
+	padding-bottom:40px;
 }
 
 .dots img{
@@ -255,8 +255,8 @@ width:3200px;
   height:240px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 animation: press 40s steps(5) infinite;
 }
 
@@ -274,7 +274,7 @@ animation: press 40s steps(5) infinite;
   font-size: 17px;
   text-align:center;
 width:640px;
-  height:240px;
+  /* height:240px; */
 }
 .quote-indicators{
   width:640px;
@@ -335,7 +335,7 @@ line-height: 21px;
 }
 
 .logos img{
-width:140px;
+width:120px;
 }
 
 .logos .artsgrant{
@@ -346,7 +346,7 @@ width:230px;
   .hero,
   	.section,
   	.footer{
-     max-width:90%;
+     max-width:82%;
   	}
     .press{
       /* background-color: yellow; */
@@ -405,22 +405,25 @@ line-height:28px;
 width:80px;
 }
 
-.signup{
-/* padding-right:20px; */
+.logos img{
+width:90px;
+
 }
 
-
-
-
+.logos .artsgrant{
+    	padding-top:20px;
+width:230px;
+}
 .logos img{
+
   	padding-bottom:20px;
 }
 
 	.logos {
-flex-direction:column;
+/* flex-direction:column; */
  display:flex;
   flex-wrap:wrap;
-  justify-content:center;
+  justify-content:space-around;
   align-items: center;
 	padding-bottom:40px;
 }
