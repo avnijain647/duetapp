@@ -3,10 +3,10 @@ body{
     font-size:21px;
   line-height:32px;
 color:#444;
-background: linear-gradient(180deg,  #b0ccdf,#f4d3be, #51455d,  #51455d,      #A2a9d2 );
+background: linear-gradient(180deg,  #b0ccdf,#f4d3be  );
 	margin:0;
 }
-/* #5b8e6a, #5b8e6a, #E2A6D9,#babafb,*/
+/* #5b8e6a, #5b8e6a, #E2A6D9,#babafb, ,#A2a9d2, #51455d*/
 
 .signup a{
 color:#444;
@@ -308,14 +308,14 @@ width:640px;
 }
 .quote0{
   margin: 0 20px 0 20px;
-  background-color: #fafccb;
+  background-color: #444;
   width:12px;
   height:12px;
   border-radius: 10px;
 }
 .quote1{
   margin: 0 20px 0 20px;
-  background-color: #fafccb;
+  background-color: #444;
   width:5px;
   height:5px;
   border-radius: 5px;
@@ -400,12 +400,12 @@ line-height:28px;
 }
 
 .duet img{
-padding-left:20px;
+/* padding-left:20px; */
 width:80px;
 }
 
 .signup{
-padding-right:20px;
+/* padding-right:20px; */
 }
 
 
