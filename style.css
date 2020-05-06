@@ -403,14 +403,14 @@ width:640px;
 }
 .quote0{
   margin: 0 3px 0 3px;
-  background-color: #aaa;
+  background-color: #444;
   width:8px;
   height:8px;
   border-radius: 10px;
 }
 .quote1{
   margin: 0 3px 0 3px;
-  background-color: #aaa;
+  background-color: #444;
   width:4px;
   height:4px;
   border-radius: 5px;
@@ -445,7 +445,7 @@ width:230px;
 
     .press{
       /* background-color: yellow; */
-      width:300px;
+      width:270px;
       height:400px;
     	margin-left:auto;
     	margin-right:auto;
@@ -453,7 +453,7 @@ width:230px;
     }
 
     .pressbox{
-    width:1500px;
+    width:1350px;
        /* background-color: blue; */
       height:400px;
 
@@ -466,25 +466,25 @@ width:230px;
       }
 
       100% {
-      transform: translateX(-1500px);
+      transform: translateX(-1350px);
 
     	}
     }
 
 
     .quote-indicators{
-      width:300px;
+      width:270px;
     }
     .quote-profile{
         animation: press 40s steps(5) infinite;
-      width:1500px;
+      width:1350px;
 
 
     }
 
     .quoteblock1{
 
-      width:300px;
+      width:270px;
 
     }
 
@@ -494,10 +494,21 @@ body{
   font-size:17px;
 line-height:28px;
 }
-.cta1{
-
-  width:300px;
-
+.hero{
+ margin-top:30px;
+  margin-bottom:30px;
+}
+.dot{
+  padding-top:0px;
+  padding-bottom:0px;
+}
+.cta1,
+.cta2{
+/* background-color: red; */
+  width:270px;
+}
+.cta2{
+  width:250px;
 }
 .duet img{
 /* padding-left:20px; */
