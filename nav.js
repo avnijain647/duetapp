@@ -5,5 +5,4 @@ $('.quoteblock1 div').on('click', function() {
   $('.quote1').removeClass('scale')
   $(this).addClass('scale')
 
-    console.log(filter)
 })
