@@ -112,6 +112,10 @@ margin-right:auto;
 .visual::-webkit-scrollbar {
     display: none;
 }
+.visual{
+   scrollbar-width: none;
+   /* overflow: -moz-scrollbars-none; */
+}
 
 .visual{
   overflow: auto;
