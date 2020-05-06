@@ -344,6 +344,7 @@ width:300px;
 }
 
 .pressbox{
+  position: relative;
 width:640px;
    /* background-color: blue; */
   height:240px;
@@ -366,10 +367,13 @@ width:640px;
 }
 .quotes{
   position: absolute;
+  top:50%;
+  transform: translateY(-50%);
   font-size: 17px;
   text-align:center;
 width:640px;
 opacity: 0;
+/* background-color: red; */
   /* height:240px; */
 }
 .show{
@@ -462,7 +466,6 @@ width:230px;
   	}
 
     .press{
-      /* background-color: yellow; */
       width:270px;
       height:400px;
     	margin-left:auto;
@@ -470,29 +473,13 @@ width:230px;
       overflow: hidden;
     }
     .quotes{
-
     width:270px;
 
-      /* height:240px; */
     }
     .pressbox{
     width:270px;
-       /* background-color: blue; */
       height:400px;
-
-    /* animation: press 40s steps(5) infinite; */
     }
-
-    /* @keyframes press {
-      0% {
-        transform: translateX(0);
-      }
-
-      100% {
-      transform: translateX(-1350px);
-
-    	}
-    } */
 
 
     .quote-indicators{
@@ -500,20 +487,32 @@ width:230px;
     }
     .quote-profile{
       width:270px;
-
-
     }
 
     .quoteblock1{
-
       width:270px;
-
     }
-    .quote1{
-
-      margin: 0 20px 0 20px;
-
+    .logos img{
+      padding:0 20px 0 20px;
+    width:90px;
     }
+
+    .logos .artsgrant{
+        	padding-top:20px;
+    width:230px;
+    }
+    .logos img{
+      	padding-bottom:20px;
+    }
+
+    	.logos {
+     display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      align-items: center;
+    	padding-bottom:40px;
+    }
+
 }
 @media (max-width:450px){
 body{
@@ -530,43 +529,17 @@ line-height:28px;
 }
 .cta1,
 .cta2{
-/* background-color: red; */
   width:270px;
 }
+
 .cta2{
   width:250px;
 }
 .duet img{
-/* padding-left:20px; */
 width:80px;
 }
 
-.logos img{
-  padding:0 20px 0 20px;
-width:90px;
 
-}
-.logo-qs{
-  	/* padding-right:20px; */
-
-}
-.logos .artsgrant{
-    	padding-top:20px;
-width:230px;
-}
-.logos img{
-
-  	padding-bottom:20px;
-}
-
-	.logos {
-/* flex-direction:column; */
- display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  align-items: center;
-	padding-bottom:40px;
-}
 
 
 }
