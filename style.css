@@ -393,17 +393,17 @@ width:640px;
   align-items: center;
 }
 .quote0{
-  margin: 0 8px 0 8px;
-  background-color: #444;
-  width:10px;
-  height:10px;
+  margin: 0 3px 0 3px;
+  background-color: #aaa;
+  width:8px;
+  height:8px;
   border-radius: 10px;
 }
 .quote1{
-  margin: 0 8px 0 8px;
-  background-color: #444;
-  width:5px;
-  height:5px;
+  margin: 0 3px 0 3px;
+  background-color: #aaa;
+  width:4px;
+  height:4px;
   border-radius: 5px;
 }
 .footer{
