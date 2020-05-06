@@ -7,7 +7,11 @@ background: linear-gradient(180deg,  #b0ccdf,#f4d3be  );
 	margin:0;
 }
 /* #5b8e6a, #5b8e6a, #E2A6D9,#babafb, ,#A2a9d2, #51455d*/
-
+a{
+  text-decoration: none;
+  color:#444;
+  /* background-color: red; */
+}
 .signup a{
   font-size: 16px;
 color:#444;
@@ -131,7 +135,7 @@ height:400px;
   position: absolute;
   width:11130px;
   height:400px;
-    animation: move 75s linear infinite;
+    animation: move 120s linear infinite;
 }
 span {
     /* overflow:  auto; */
@@ -258,14 +262,8 @@ text-align:center;
 margin-left: auto;
 margin-right: auto;
 }
-.cta2 a{
-color:#444;
-    text-decoration: none;
-}
-.cta2 a:hover{
-/* color:#fff; */
-    text-decoration: none;
-}
+
+
 .cta2{
   background-image: linear-gradient(90deg, rgb(253,199,182,0), rgb(250,224,66, 1));
 color:#444;
@@ -279,7 +277,7 @@ color:#444;
 width:300px;
 }
 .cta2:hover{
-  color:#fff;
+  color:#444;
   background-image: linear-gradient(90deg, rgb(253,199,182,1), rgb(250,224,66, 0));
   transition: .1s;
 }
@@ -420,22 +418,30 @@ opacity: 0;
   border-radius: 10px;
 } */
 .quote1{
-  cursor: pointer;
-  margin: 0 20px 0 20px;
-  background-color: #444;
+  /*  */
+  position: relative;
   width:6px;
   height:6px;
-  border-radius: 5px;
+  /* background-color:yellow; */
+  cursor: pointer;
+  padding: 12px 12px 12px 12px;
+  margin:0 15px 0 15px;
+padding: 12px 12px 12px 12px;
+
 }
-/* .scale1{
-  width:10px;
-  height:10px;
-  border-radius: 12px;
-} */
+.circle{
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width:30%;
+  height:30%;
+  border-radius: 50%;
+  background-color: #444;
+}
+
 .scale{
-  width:10px;
-  height:10px;
-  border-radius: 12px;
+  transform: scale(1.6);
 }
 .footer{
 font-size:14px;
@@ -501,6 +507,7 @@ width:230px;
         	padding-top:20px;
     width:230px;
     }
+
     .logos img{
       	padding-bottom:20px;
     }
@@ -515,31 +522,35 @@ width:230px;
 
 }
 @media (max-width:450px){
+
 body{
   font-size:17px;
 line-height:28px;
 }
+
 .hero{
  margin-top:30px;
-  margin-bottom:30px;
+margin-bottom:30px;
 }
+
 .dot{
   padding-top:0px;
   padding-bottom:0px;
 }
-.cta1,
-.cta2{
+
+.cta1{
   width:270px;
 }
-
+.quote1{
+    margin:0 10px 0 10px;
+}
 .cta2{
   width:250px;
 }
+
 .duet img{
 width:80px;
 }
-
-
 
 
 }
