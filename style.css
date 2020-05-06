@@ -344,14 +344,14 @@ width:300px;
 }
 
 .pressbox{
-width:3200px;
+width:640px;
    /* background-color: blue; */
   height:240px;
-  display: flex;
+  /* display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
-animation: press 40s steps(5) infinite;
+  align-items: center; */
+/* animation: press 40s steps(5) infinite; */
 }
 
 @keyframes press {
@@ -365,11 +365,17 @@ animation: press 40s steps(5) infinite;
 	}
 }
 .quotes{
+  position: absolute;
   font-size: 17px;
   text-align:center;
 width:640px;
+opacity: 0;
   /* height:240px; */
 }
+.show{
+  opacity: 1;
+}
+
 .quote-indicators{
   width:640px;
   height:40px;
@@ -379,15 +385,15 @@ width:640px;
 
 }
 .quote-profile{
-    animation: press 40s steps(5) infinite;
+    /* animation: press 40s steps(5) infinite; */
   margin-left:auto;
   margin-right:auto;
   width:3200px;
     height:40px;
-  display: flex;
+  /* display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: center;
+  align-items: center; */
 /* background-color: yellow; */
 
 }
@@ -396,24 +402,36 @@ width:640px;
     /* background-color: red; */
   width:640px;
     height:40px;
+    position: absolute;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
 }
-.quote0{
-  margin: 0 3px 0 3px;
+/* .quote0{
+  margin: 0 20px 0 20px;
   background-color: #444;
   width:8px;
   height:8px;
   border-radius: 10px;
-}
+} */
 .quote1{
-  margin: 0 3px 0 3px;
+  cursor: pointer;
+  margin: 0 20px 0 20px;
   background-color: #444;
-  width:4px;
-  height:4px;
+  width:6px;
+  height:6px;
   border-radius: 5px;
+}
+/* .scale1{
+  width:10px;
+  height:10px;
+  border-radius: 12px;
+} */
+.scale{
+  width:10px;
+  height:10px;
+  border-radius: 12px;
 }
 .footer{
 font-size:14px;

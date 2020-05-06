@@ -1,6 +1,11 @@
-// $('body').on('click', function() {
-//   var filter = $(this).attr('data-filter')
-//  $('.quotes').html(yes)
-//   return false
-//     console.log(filter)
-// })
+$('.quoteblock1 div').on('click', function() {
+  var filter = $(this).attr('data-filter')
+    $('.quotes').removeClass('show')
+  $(filter).addClass('show')
+  $('.quote1').removeClass('scale')
+  $(this).addClass('scale')
+
+ // $('.quotes').html('yes')
+  // return true
+    console.log(filter)
+})
