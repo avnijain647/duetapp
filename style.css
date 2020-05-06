@@ -469,16 +469,21 @@ width:230px;
     	margin-right:auto;
       overflow: hidden;
     }
+    .quotes{
 
+    width:270px;
+
+      /* height:240px; */
+    }
     .pressbox{
-    width:1350px;
+    width:270px;
        /* background-color: blue; */
       height:400px;
 
-    animation: press 40s steps(5) infinite;
+    /* animation: press 40s steps(5) infinite; */
     }
 
-    @keyframes press {
+    /* @keyframes press {
       0% {
         transform: translateX(0);
       }
@@ -487,15 +492,14 @@ width:230px;
       transform: translateX(-1350px);
 
     	}
-    }
+    } */
 
 
     .quote-indicators{
       width:270px;
     }
     .quote-profile{
-        animation: press 40s steps(5) infinite;
-      width:1350px;
+      width:270px;
 
 
     }
