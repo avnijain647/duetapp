@@ -8,6 +8,7 @@ background: linear-gradient(180deg,  #b0ccdf,#f4d3be  );
 }
 /* #5b8e6a, #5b8e6a, #E2A6D9,#babafb, ,#A2a9d2, #51455d*/
 a{
+  cursor: pointer;
   text-decoration: none;
   color:#444;
   /* background-color: red; */
@@ -372,8 +373,6 @@ width:640px;
   text-align:center;
 width:640px;
 opacity: 0;
-/* background-color: red; */
-  /* height:240px; */
 }
 .show{
   opacity: 1;
@@ -385,25 +384,13 @@ opacity: 0;
   margin-left:auto;
   margin-right:auto;
   overflow: hidden;
+  position: relative;
 
 }
-.quote-profile{
-    /* animation: press 40s steps(5) infinite; */
-  margin-left:auto;
-  margin-right:auto;
-  width:3200px;
-    height:40px;
-  /* display: flex;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center; */
-/* background-color: yellow; */
 
-}
 
 .quoteblock1{
-    /* background-color: red; */
-  width:640px;
+  width:100%;
     height:40px;
     position: absolute;
   display: flex;
@@ -411,23 +398,14 @@ opacity: 0;
   justify-content: center;
   align-items: center;
 }
-/* .quote0{
-  margin: 0 20px 0 20px;
-  background-color: #444;
-  width:8px;
-  height:8px;
-  border-radius: 10px;
-} */
+
 .quote1{
-  /*  */
   position: relative;
   width:3px;
   height:3px;
-  /* background-color:yellow; */
   cursor: pointer;
-  /* padding: 12px 12px 12px 12px; */
   margin:0 15px 0 15px;
-padding: 12px 12px 12px 12px;
+padding: 12px;
 
 }
 .circle{
@@ -437,7 +415,7 @@ padding: 12px 12px 12px 12px;
   position: absolute;
   width:30%;
   height:30%;
-  border-radius: 50%;
+  border-radius: 60%;
   background-color: #444;
 }
 
@@ -465,6 +443,7 @@ width:120px;
 width:230px;
 }
 @media (max-width:650px){
+  .quote-indicators,
   .header-box,
   .hero,
   	.section,
@@ -489,16 +468,7 @@ width:230px;
     }
 
 
-    .quote-indicators{
-      width:270px;
-    }
-    .quote-profile{
-      width:270px;
-    }
 
-    .quoteblock1{
-      width:270px;
-    }
     .logos img{
       padding:0 20px 0 20px;
     width:90px;
@@ -542,9 +512,19 @@ margin-bottom:30px;
 .cta1{
   width:270px;
 }
-.quote1{
-    margin:0 10px 0 10px;
+.quoteblock1{
+    justify-content: space-between;
 }
+.circle{
+  width: 10px;
+  height: 10px;
+}
+.quote1{
+  /* background-color: red; */
+/* padding: 12px; */
+margin:0;
+}
+
 .cta2{
   width:250px;
 }
