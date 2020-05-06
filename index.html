@@ -19,7 +19,29 @@
 </head>
 
 <body>
+  <script
+    type="text/javascript"
+    src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js"
+    data-dojo-config="usePlainJson: true, isDebug: false"
+  ></script>
 
+  <script>
+    function showMailingPopUp() {
+      require(["mojo/signup-forms/Loader"], function (L) {
+        L.start({
+          baseUrl: "mc.us10.list-manage.com",
+          uuid: "bafd5f830e94b803ee41b5f99",
+          lid: "825e79420f",
+        });
+      });
+      document.cookie =
+        "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+    }
+
+    document.getElementById("signup").onclick = function () {
+      showMailingPopUp();
+    };
+  </script>
   <div class="header">
     <div class="header-box">
     <div class="duet"><img src="duet_simplifica.png"></div>
@@ -161,29 +183,7 @@ Duet was first presented in 2017. In its first edition, the app was live for 368
     </div>
 
   </div>
-  <script
-    type="text/javascript"
-    src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js"
-    data-dojo-config="usePlainJson: true, isDebug: false"
-  ></script>
 
-  <script>
-    function showMailingPopUp() {
-      require(["mojo/signup-forms/Loader"], function (L) {
-        L.start({
-          baseUrl: "mc.us10.list-manage.com",
-          uuid: "bafd5f830e94b803ee41b5f99",
-          lid: "825e79420f",
-        });
-      });
-      document.cookie =
-        "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-    }
-
-    document.getElementById("signup").onclick = function () {
-      showMailingPopUp();
-    };
-  </script>
 
   <script src="jquery.js"></script>
   <script src="nav.js"></script>

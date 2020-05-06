@@ -420,11 +420,11 @@ opacity: 0;
 .quote1{
   /*  */
   position: relative;
-  width:6px;
-  height:6px;
+  width:3px;
+  height:3px;
   /* background-color:yellow; */
   cursor: pointer;
-  padding: 12px 12px 12px 12px;
+  /* padding: 12px 12px 12px 12px; */
   margin:0 15px 0 15px;
 padding: 12px 12px 12px 12px;
 
