@@ -9,6 +9,23 @@
   <link rel="icon" type="image/png" sizes="32x32" href="duet-favicon.png">
   <meta property="og:title" content="Deut App">
 <meta property="og:description" content=" ">
+<script>
+  function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function (L) {
+      L.start({
+        baseUrl: "mc.us10.list-manage.com",
+        uuid: "bafd5f830e94b803ee41b5f99",
+        lid: "825e79420f",
+      });
+    });
+    document.cookie =
+      "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+  }
+
+  document.getElementById("signup").onclick = function () {
+    showMailingPopUp();
+  };
+</script>
 
 
    <link rel="stylesheet" href="style.css">
@@ -32,23 +49,6 @@
     data-dojo-config="usePlainJson: true, isDebug: false"
   ></script>
 
-  <script>
-    function showMailingPopUp() {
-      require(["mojo/signup-forms/Loader"], function (L) {
-        L.start({
-          baseUrl: "mc.us10.list-manage.com",
-          uuid: "bafd5f830e94b803ee41b5f99",
-          lid: "825e79420f",
-        });
-      });
-      document.cookie =
-        "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-    }
-
-    document.getElementById("signup").onclick = function () {
-      showMailingPopUp();
-    };
-  </script>
 
       <div class="dot"><div class="dot1"><img src="pinkicon.png"></div></div>
 
@@ -125,25 +125,9 @@ Duet is a work that seeks to challenge the ways in which we interact online. Due
 
   <div class="cta1" style="padding-top:30px;" ><b>Participate in Chapter 2 of Duet</b></div>
 
-  <div class="cta2" >  <a id="signup" href="#" >SIGN UP HERE</a></div>
+  <div class="cta2" >  <a id="signup" href="#">SIGN UP HERE</a></div>
 
-    <script>
-      function showMailingPopUp() {
-        require(["mojo/signup-forms/Loader"], function (L) {
-          L.start({
-            baseUrl: "mc.us10.list-manage.com",
-            uuid: "bafd5f830e94b803ee41b5f99",
-            lid: "825e79420f",
-          });
-        });
-        document.cookie =
-          "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-      }
-
-      document.getElementById("signup").onclick = function () {
-        showMailingPopUp();
-      };
-    </script>
+  
 
        <div class="dots"><div class="dot4"><img src="greenicon.png"></div></div>
 
