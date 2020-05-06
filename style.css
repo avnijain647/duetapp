@@ -339,6 +339,7 @@ width:300px;
 }
 
 .press{
+  position: relative;
   /* background-color: yellow; */
   width:640px;
   height:240px;
@@ -347,35 +348,16 @@ width:300px;
   overflow: hidden;
 }
 
-.pressbox{
-  position: relative;
-width:640px;
-   /* background-color: blue; */
-  height:240px;
-  /* display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center; */
-/* animation: press 40s steps(5) infinite; */
-}
 
-@keyframes press {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-  transform: translateX(-3200px);
-
-	}
-}
 .quotes{
+    /* background-color: blue; */
   position: absolute;
   top:50%;
   transform: translateY(-50%);
   font-size: 17px;
   text-align:center;
-width:640px;
+width:100%;
+  /* height:240px; */
 opacity: 0;
 }
 .show{
@@ -447,6 +429,7 @@ width:120px;
 width:230px;
 }
 @media (max-width:650px){
+    .press,
   .quote-indicators,
   .header-box,
   .hero,
@@ -454,25 +437,10 @@ width:230px;
   	.footer{
      max-width:82%;
   	}
-
-    .press{
-      width:270px;
-      height:400px;
-    	margin-left:auto;
-    	margin-right:auto;
-      overflow: hidden;
-    }
-    .quotes{
-    width:270px;
-
-    }
-    .pressbox{
-    width:270px;
-      height:400px;
-    }
-
-
-
+.press{
+  height:420px;
+  margin-bottom: 20px;
+}
     .logos img{
       padding:0 20px 0 20px;
     width:90px;
@@ -524,8 +492,6 @@ margin-bottom:30px;
   height: 10px;
 }
 .quote1{
-  /* background-color: red; */
-/* padding: 12px; */
 margin:0;
 }
 
