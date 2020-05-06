@@ -106,7 +106,12 @@ margin-right:auto;
  margin-top:50px;
   margin-bottom:40px;
 }
-
+.visual {
+    -ms-overflow-style: none;
+}
+.visual::-webkit-scrollbar {
+    display: none;
+}
 
 .visual{
   overflow: auto;
