@@ -96,7 +96,7 @@ width:200px;
 
 .content{
 position:relative;
-z-index:3;
+z-index:9;
 }
 
 .hero{
@@ -107,41 +107,124 @@ margin-right:auto;
   margin-bottom:40px;
 }
 
-/*
- b{
-font-size:28px;
-	 line-height:36px;
-font-weight:700;
-} */
+
 .visual{
-  /* background-color: red; */
+  overflow: hidden;
+  position: relative;
 		padding-top:20px;
 	padding-bottom:20px;
 width:100%;
 height:400px;
 }
-.heroimage{
-  background-image: url(hero-image.png);
-  width:100%;
+.visual-inner{
+    display: block;
+  position: absolute;
+  width:11130px;
   height:400px;
-  animation: move 70s linear infinite;
+    animation: move 82s linear infinite;
 }
-
+span {
+  float: left;
+  width: 5565px:
+}
+.hero-image-1{
+  background-image: url(hero-image-1.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-2{
+  background-image: url(hero-image-2.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-3{
+  background-image: url(hero-image-3.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-4{
+  background-image: url(hero-image-4.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-5{
+  background-image: url(hero-image-5.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-6{
+  background-image: url(hero-image-6.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-7{
+  background-image: url(hero-image-7.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-8{
+  background-image: url(hero-image-8.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-9{
+  background-image: url(hero-image-9.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-10{
+  background-image: url(hero-image-10.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-11{
+  background-image: url(hero-image-11.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-12{
+  background-image: url(hero-image-12.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-13{
+  background-image: url(hero-image-13.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-14{
+  background-image: url(hero-image-14.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
+.hero-image-15{
+  background-image: url(hero-image-15.png);
+  width:370px;
+  height:400px;
+  float: left;
+}
 @keyframes move {
-	0% {
-		background-position: 0% 50%;
-	}
-	/* 50% {
-		background-position: 100% 50%;
-	} */
-	100% {
-		background-position: 100% 50%;
-	}
+  0% { left: 0; }
+  100% { left: -5565px; }
 }
-.heroimage img{
+/* .heroimage img{
 width:100%;
   height:400px;
-}
+} */
 
 .section,
 .footer{
