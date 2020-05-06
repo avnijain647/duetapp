@@ -326,7 +326,7 @@ width:300px;
   margin-right:auto;
 }
 .dot6{
-  text-align:left;
+  text-align:right;
   max-width:70%;
     margin-left:auto;
   margin-right:auto;
@@ -498,7 +498,9 @@ margin:0;
 .cta2{
   width:250px;
 }
-
+.dot6{
+  padding:20px 0 20px 0;
+}
 .duet img{
 width:80px;
 }
