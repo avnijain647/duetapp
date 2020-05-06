@@ -22,9 +22,33 @@
   <div class="header">
     <div class="header-box">
     <div class="duet"><img src="duet_simplifica.png"></div>
-    <div class="signup"><a href="">SIGN UP</a></div>
+    <div class="signup"><a id="signup" href="#">SIGN UP</a></div>
     </div>
   </div>
+
+  <script
+    type="text/javascript"
+    src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js"
+    data-dojo-config="usePlainJson: true, isDebug: false"
+  ></script>
+
+  <script>
+    function showMailingPopUp() {
+      require(["mojo/signup-forms/Loader"], function (L) {
+        L.start({
+          baseUrl: "mc.us10.list-manage.com",
+          uuid: "bafd5f830e94b803ee41b5f99",
+          lid: "825e79420f",
+        });
+      });
+      document.cookie =
+        "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+    }
+
+    document.getElementById("signup").onclick = function () {
+      showMailingPopUp();
+    };
+  </script>
 
       <div class="dot"><div class="dot1"><img src="pinkicon.png"></div></div>
 
@@ -101,7 +125,7 @@ Duet is a work that seeks to challenge the ways in which we interact online. Due
 
   <div class="cta1" style="padding-top:30px;" ><b>Participate in Chapter 2 of Duet</b></div>
 
-  <div class="cta2" >  <a href="" >SIGN UP HERE</a></div>
+  <div class="cta2" >  <a id="signup" href="#" >SIGN UP HERE</a></div>
 
 
        <div class="dots"><div class="dot4"><img src="greenicon.png"></div></div>
