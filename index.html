@@ -1,198 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Duet App</title>
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Duet App</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="duet-favicon.png">
-  <meta property="og:title" content="Deut App">
-<meta property="og:description" content=" ">
+    <link rel="icon" type="image/png" sizes="32x32" href="duet-favicon.png" />
+    <meta property="og:title" content="Deut App" />
+    <meta property="og:description" content=" " />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style_v_0.1.css" />
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-
-   <link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-  <script
-    type="text/javascript"
-    src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js"
-    data-dojo-config="usePlainJson: true, isDebug: false"
-  ></script>
-  <script src="main.js"></script>
-  <div class="header">
-    <div class="header-box">
-    <div class="duet"><img src="duet_simplifica.png"></div>
-    <div class="signup"><a id="signup" href="http://duet-app.com/100/#">SIGN UP</a></div>
-    </div>
-  </div>
-
-  <script
-    type="text/javascript"
-    src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js"
-    data-dojo-config="usePlainJson: true, isDebug: false"
-  ></script>
-
-  <script>
-    function showMailingPopUp() {
-      require(["mojo/signup-forms/Loader"], function (L) {
-        L.start({
-          baseUrl: "mc.us10.list-manage.com",
-          uuid: "bafd5f830e94b803ee41b5f99",
-          lid: "825e79420f",
-        });
-      });
-      document.cookie =
-        "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-    }
-
-    document.getElementById("signup").onclick = function () {
-      showMailingPopUp();
-    };
-  </script>
-
-      <div class="dot"><div class="dot1"><img src="pinkicon.png"></div></div>
-
-  <div class="content">
-   <div class="hero">
-   <div class="intro">
- <b>Duet is a digital artwork about finding space for reflection, expression and connection in our daily lives, an intimate experience between strangers.</b>
-
-<div style="padding-top:40px;">Duet is a collaboration between <a href="https://invisibleflock.com/" target="_blank">INVISIBLE FLOCK (UK)</a> and <a href="http://quicksand.co.in/" target="_blank">QUICKSAND (India)</a>.</div>
-  </div>
-  </div>
-
-
-
-    <div class="visual">
-      <div class="visual-inner">
-  <span>
-<div class="hero-image-1"></div>
-<div class="hero-image-2"></div>
-<div class="hero-image-3"></div>
-<div class="hero-image-4"></div>
-<div class="hero-image-5"></div>
-<div class="hero-image-6"></div>
-<div class="hero-image-7"></div>
-<div class="hero-image-8"></div>
-<div class="hero-image-9"></div>
-<div class="hero-image-10"></div>
-<div class="hero-image-11"></div>
-<div class="hero-image-12"></div>
-<div class="hero-image-13"></div>
-<div class="hero-image-14"></div>
-<div class="hero-image-15"></div>
-  </span>
-  <span>
-<div class="hero-image-1"></div>
-<div class="hero-image-2"></div>
-<div class="hero-image-3"></div>
-<div class="hero-image-4"></div>
-<div class="hero-image-5"></div>
-<div class="hero-image-6"></div>
-<div class="hero-image-7"></div>
-<div class="hero-image-8"></div>
-<div class="hero-image-9"></div>
-<div class="hero-image-10"></div>
-<div class="hero-image-11"></div>
-<div class="hero-image-12"></div>
-<div class="hero-image-13"></div>
-<div class="hero-image-14"></div>
-<div class="hero-image-15"></div>
-  </span>
-</div>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main_v_0.1.js"></script>
+    <div class="header">
+      <div class="header-box">
+        <div class="duet"><img src="images/duet_simplifica.png" /></div>
+        <div class="signup">
+          <a id="signup" href="http://duet-app.com/100/#">SIGN UP</a>
+        </div>
+      </div>
     </div>
 
-    <div class="dot"><div class="dot2"><img src="greenicon.png"></div></div>
-
-  <div class="section">
-    Duet is an app that pairs participating individuals and invites them to exchange details of their lives by answering a question a day, building new anonymous space and connections. Prompted by Duet, a participant gradually builds a picture of their partner and their surroundings through anonymous shared messages, while also finding a moment for reflection in their own lives and surroundings.
-  </div>
-
-   <div class="section" style="padding-top:20px;">
-<b>Duet - Chapter 2, will run for 100 days and seeks to provide an intimate and reflective space through which we can all directly respond to this new world we find ourselves in, especially in light of COVID 19.
-</b></div>
-
-
-        <div class="dots"><div class="dot3"><img src="pinkicon.png"></div></div>
-
-     <div class="section" style="padding-bottom:20px;">
-Duet is a work that seeks to challenge the ways in which we interact online. Duet is not social media, it is also not a game. Instead it operates in a different space - a slow, dreamy experiential space where you are invited to share small glimpses of life with someone new.
- </div>
-
-
-
-
-
-  <div class="cta1" style="padding-top:30px;"><b>Participate in Chapter 2 of Duet</b></div>
-
-  <a id="sign-up-2" href="http://duet-app.com/100/"><div class="cta2">SIGN UP HERE</div></a>
-
-
-
-
-       <div class="dots"><div class="dot4"><img src="greenicon.png"></div></div>
-
-<div class="section" style="padding-bottom:80px;">
-Duet was first presented in 2017. In its first edition, the app was live for 368 days and connected over 1200 participants in India and in the UK, generating a 25000+ database of beautiful and eclectic answers. Each daily question was different and participants took part in varying ways, some connecting with a single partner for the entire year and some dipping in and out of the experience.
-  </div>
-
-
-
-  <div class="press">
-
-<div class="quotes profile1 show">"Personal, local and global, carefully crafted and decidedly fascinating."<p style="font-weight:700;">Mary Halton, New Scientist</p></div>
-
-<div  class="quotes profile2">"Taking conversations beyond the superficial to find what you share in common with a fellow human in a different country."<p style="font-weight:700;">Meghana Choukkar, Deccan Herald</p></div>
-
-
-<div  class="quotes profile3">"The questions force you to stop whatever you are doing and think back on your day or observe your surroundings more keenly. Your own answers sometimes tend to surprise you. Answers from across the oceans definitely surprise you and present just enough of a picture for you to then lend your own shape and colour to whatever brief glimpse you have received of another life in another culture." <p style="font-weight:700;">The Big Issue North</p></div>
-
-<div  class="quotes profile4">"Duet slows down your life and thoughts, and gives you a break from the drill of mindlessly ‘liking’ and ‘commenting’" <p style="font-weight:700;">Barkha Kumari, Bangalore Mirror</p></div>
-
-<div  class="quotes profile5">"My partner and I connected on some of the most loneliest nights and glorious days. It was great to have her with me. Not seeing her or knowing her name did not matter at all. There were days, when I would look forward to her update, to know what was happening to her and this connection means a lot to me now."<p style="font-weight:700;">Participant</p></div>
-
-  </div>
-
-  <div class="quote-indicators">
-
-      <div class="quoteblock1">
-  <div class="quote1  scale" data-filter=" .profile1"><span class="circle"></span></div>
-  <div class="quote1" data-filter=" .profile2"><span class="circle"></span></div>
-  <div class="quote1" data-filter=" .profile3"><span class="circle"></span></div>
-  <div class="quote1" data-filter=" .profile4"><span class="circle"></span></div>
-  <div class="quote1" data-filter=" .profile5"><span class="circle"></span></div>
-  </div>
-
-  </div>
-
-       <div class="dots"><div class="dot6"><img src="pinkicon.png"></div></div>
-
-  <div class="footer">
-
-  <div class="logos">
-    <div><a href="http://quicksand.co.in/" target="_blank" class="logo-qs"> <img src="qs_logo_square.png"></a></div>
-    <div> <a href="https://invisibleflock.com/" target="_blank">  <img src="if_logo_square.png"></a></div>
-    <div>  <a href="https://www.artscouncil.org.uk/" target="_blank"><img class="artsgrant" src="grant_png_black.png"></a></div>
-  </div>
-
-  <div>
-    The first version of Duet in 2017 was funded by Arts Council England, the British Council and Leeds Inspired. Co-commissioned by Yorkshire Design Group, Quays Culture, Threshold and Studios. Supported by East Street Arts, Leeds Bid, Leeds City Council and Unbox Cultural Futures Society.
-
-    <div style="padding-top:20px;">© Duet App 2020. All rights reserved.</div>
-  </div>
+    <div class="dot">
+      <div class="dot1"><img src="images/pinkicon.png" /></div>
     </div>
 
-  </div>
+    <div class="content">
+      <div class="hero">
+        <div class="intro">
+          <b
+            >Duet is a digital artwork about finding space for reflection,
+            expression and connection in our daily lives, an intimate experience
+            between strangers.</b
+          >
 
+          <div style="padding-top: 40px;">
+            Duet is a collaboration between
+            <a href="https://invisibleflock.com/" target="_blank"
+              >INVISIBLE FLOCK (UK)</a
+            >
+            and
+            <a href="http://quicksand.co.in/" target="_blank"
+              >QUICKSAND (India)</a
+            >.
+          </div>
+        </div>
+      </div>
 
-  <script src="jquery.js"></script>
-  <script src="nav.js"></script>
-    <!-- <script src="main.js"></script> -->
-</body>
+      <div class="visual">
+        <div class="visual-inner">
+          <span>
+            <div class="hero-image-1"></div>
+            <div class="hero-image-2"></div>
+            <div class="hero-image-3"></div>
+            <div class="hero-image-4"></div>
+            <div class="hero-image-5"></div>
+            <div class="hero-image-6"></div>
+            <div class="hero-image-7"></div>
+            <div class="hero-image-8"></div>
+            <div class="hero-image-9"></div>
+            <div class="hero-image-10"></div>
+            <div class="hero-image-11"></div>
+            <div class="hero-image-12"></div>
+            <div class="hero-image-13"></div>
+            <div class="hero-image-14"></div>
+            <div class="hero-image-15"></div>
+          </span>
+          <span>
+            <div class="hero-image-1"></div>
+            <div class="hero-image-2"></div>
+            <div class="hero-image-3"></div>
+            <div class="hero-image-4"></div>
+            <div class="hero-image-5"></div>
+            <div class="hero-image-6"></div>
+            <div class="hero-image-7"></div>
+            <div class="hero-image-8"></div>
+            <div class="hero-image-9"></div>
+            <div class="hero-image-10"></div>
+            <div class="hero-image-11"></div>
+            <div class="hero-image-12"></div>
+            <div class="hero-image-13"></div>
+            <div class="hero-image-14"></div>
+            <div class="hero-image-15"></div>
+          </span>
+        </div>
+      </div>
+
+      <div class="dot">
+        <div class="dot2"><img src="images/greenicon.png" /></div>
+      </div>
+
+      <div class="section">
+        Duet is an app that pairs participating individuals and invites them to
+        exchange details of their lives by answering a question a day, building
+        new anonymous space and connections. Prompted by Duet, a participant
+        gradually builds a picture of their partner and their surroundings
+        through anonymous shared messages, while also finding a moment for
+        reflection in their own lives and surroundings.
+      </div>
+
+      <div class="section" style="padding-top: 20px;">
+        <b
+          >Duet - Chapter 2, will run for 100 days and seeks to provide an
+          intimate and reflective space through which we can all directly
+          respond to this new world we find ourselves in, especially in light of
+          COVID 19.
+        </b>
+      </div>
+
+      <div class="dots">
+        <div class="dot3"><img src="images/pinkicon.png" /></div>
+      </div>
+
+      <div class="section" style="padding-bottom: 20px;">
+        Duet is a work that seeks to challenge the ways in which we interact
+        online. Duet is not social media, it is also not a game. Instead it
+        operates in a different space - a slow, dreamy experiential space where
+        you are invited to share small glimpses of life with someone new.
+      </div>
+
+      <div class="cta1" style="padding-top: 30px;">
+        <b>Participate in Chapter 2 of Duet</b>
+      </div>
+
+      <a id="sign-up-2" href="http://duet-app.com/100/"
+        ><div class="cta2">SIGN UP HERE</div></a
+      >
+
+      <div class="dots">
+        <div class="dot4"><img src="images/greenicon.png" /></div>
+      </div>
+
+      <div class="section" style="padding-bottom: 80px;">
+        Duet was first presented in 2017. In its first edition, the app was live
+        for 368 days and connected over 1200 participants in India and in the
+        UK, generating a 25000+ database of beautiful and eclectic answers. Each
+        daily question was different and participants took part in varying ways,
+        some connecting with a single partner for the entire year and some
+        dipping in and out of the experience.
+      </div>
+
+      <div class="press">
+        <div class="quotes profile1 show">
+          "Personal, local and global, carefully crafted and decidedly
+          fascinating."
+          <p style="font-weight: 700;">Mary Halton, New Scientist</p>
+        </div>
+
+        <div class="quotes profile2">
+          "Taking conversations beyond the superficial to find what you share in
+          common with a fellow human in a different country."
+          <p style="font-weight: 700;">Meghana Choukkar, Deccan Herald</p>
+        </div>
+
+        <div class="quotes profile3">
+          "The questions force you to stop whatever you are doing and think back
+          on your day or observe your surroundings more keenly. Your own answers
+          sometimes tend to surprise you. Answers from across the oceans
+          definitely surprise you and present just enough of a picture for you
+          to then lend your own shape and colour to whatever brief glimpse you
+          have received of another life in another culture."
+          <p style="font-weight: 700;">The Big Issue North</p>
+        </div>
+
+        <div class="quotes profile4">
+          "Duet slows down your life and thoughts, and gives you a break from
+          the drill of mindlessly ‘liking’ and ‘commenting’"
+          <p style="font-weight: 700;">Barkha Kumari, Bangalore Mirror</p>
+        </div>
+
+        <div class="quotes profile5">
+          "My partner and I connected on some of the most loneliest nights and
+          glorious days. It was great to have her with me. Not seeing her or
+          knowing her name did not matter at all. There were days, when I would
+          look forward to her update, to know what was happening to her and this
+          connection means a lot to me now."
+          <p style="font-weight: 700;">Participant</p>
+        </div>
+      </div>
+
+      <div class="quote-indicators">
+        <div class="quoteblock1">
+          <div class="quote1 scale" data-filter=" .profile1">
+            <span class="circle"></span>
+          </div>
+          <div class="quote1" data-filter=" .profile2">
+            <span class="circle"></span>
+          </div>
+          <div class="quote1" data-filter=" .profile3">
+            <span class="circle"></span>
+          </div>
+          <div class="quote1" data-filter=" .profile4">
+            <span class="circle"></span>
+          </div>
+          <div class="quote1" data-filter=" .profile5">
+            <span class="circle"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="dots">
+        <div class="dot6"><img src="images/pinkicon.png" /></div>
+      </div>
+
+      <div class="footer">
+        <div class="logos">
+          <div>
+            <a href="http://quicksand.co.in/" target="_blank" class="logo-qs">
+              <img src="images/qs_logo_square.png"
+            /></a>
+          </div>
+          <div>
+            <a href="https://invisibleflock.com/" target="_blank">
+              <img src="images/if_logo_square.png"
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.artscouncil.org.uk/" target="_blank"
+              ><img class="artsgrant" src="images/grant_png_black.png"
+            /></a>
+          </div>
+        </div>
+
+        <div>
+          The first version of Duet in 2017 was funded by Arts Council England,
+          the British Council and Leeds Inspired. Co-commissioned by Yorkshire
+          Design Group, Quays Culture, Threshold and Studios. Supported by East
+          Street Arts, Leeds Bid, Leeds City Council and Unbox Cultural Futures
+          Society.
+
+          <div style="padding-top: 20px;">
+            © Duet App 2020. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="sign-up-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <!-- Begin Mailchimp Signup Form -->
+            <link
+              href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css"
+              rel="stylesheet"
+              type="text/css"
+            />
+            <style type="text/css">
+              #mc_embed_signup {
+                background: #fff;
+                clear: left;
+                font: 14px "Oxygen", sans-serif;
+                width: 270px;
+              }
+              /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+              <form
+                action="https://quicksand.us10.list-manage.com/subscribe/post?u=bafd5f830e94b803ee41b5f99&amp;id=825e79420f"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate"
+                target="_blank"
+                novalidate
+              >
+                <div id="mc_embed_signup_scroll">
+                  <label style="font-size: 12px;" for="mce-EMAIL"
+                    >Sign up to know when Duet is available for download</label
+                  >
+                  <input
+                    style="font-size: 12px; width: 100%;"
+                    type="email"
+                    value=""
+                    name="EMAIL"
+                    class="email"
+                    id="mce-EMAIL"
+                    placeholder="email address"
+                    required
+                  />
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div
+                    style="position: absolute; left: -5000px;"
+                    aria-hidden="true"
+                  >
+                    <input
+                      type="text"
+                      name="b_bafd5f830e94b803ee41b5f99_825e79420f"
+                      tabindex="-1"
+                      value=""
+                    />
+                  </div>
+                  <div class="clear">
+                    <input
+                      type="submit"
+                      value="Subscribe"
+                      name="subscribe"
+                      id="mc-embedded-subscribe"
+                      class="button"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <!--End mc_embed_signup-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
