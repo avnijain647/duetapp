@@ -8,10 +8,14 @@ background: linear-gradient(180deg,  #b0ccdf,#f4d3be  );
 }
 /* #5b8e6a, #5b8e6a, #E2A6D9,#babafb, ,#A2a9d2, #51455d*/
 a{
+  text-decoration: none;
   cursor: pointer;
   text-decoration: none;
   color:#444;
   /* background-color: red; */
+}
+a:hover{
+    text-decoration: none;
 }
 .signup a{
   cursor: pointer;
@@ -72,6 +76,7 @@ border-radius: 0px;
   transition: .1s;
 }
 .header{
+  /* background-color: red; */
   padding: 50px 0px 25px 0px;
   /* position: fixed; */
  width:100%;
@@ -438,7 +443,7 @@ width:230px;
      max-width:82%;
   	}
 .press{
-  height:420px;
+  height:500px;
   margin-bottom: 20px;
 }
     .logos img{
@@ -506,4 +511,71 @@ width:80px;
 }
 
 
+}
+@media (max-width:240px){
+  body,
+  .footer,
+  .quotes{
+    font-size:11px;
+  line-height:14px;
+  }
+  .dots img,
+  .dot img{
+  	width:10px;
+  	height:10px;
+  }
+  .dots{
+  	padding-top:10px;
+  	padding-bottom:10px;
+  }
+
+  .press,
+  .quote-indicators,
+  .header-box,
+  .hero,
+  .section,
+  .footer{
+   max-width:95%;
+  }
+  .press{
+    /* background-color: red; */
+  height:360px;
+  margin-bottom: 20px;
+  }
+  .duet img{
+    padding-bottom: 40px;
+  width:60px;
+  }
+  .signup a{
+      font-size: 14px;
+  }
+  .intro a{
+    padding-bottom: 0px;
+  }
+  .signup{
+
+      text-align: center;
+  }
+
+  .header{
+  /* height:70px; */
+    padding: 20px 0px 20px 0px;
+  }
+  .header-box{
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+  }
+  .cta1,
+  .cta2{
+    width:100px;
+  }
+  .circle{
+    width: 5px;
+    height:5px;
+  }
+  .logos .artsgrant{
+        /* padding-top:20px; */
+  width:180px;
+  }
 }
