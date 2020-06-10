@@ -472,6 +472,38 @@ width:120px;
 width:230px;
 }
 @media (max-width:650px){
+  .duet{
+    text-align: center;
+    width:100%;
+  }
+  .duet img{
+    padding-bottom: 40px;
+  }
+
+  .header{
+    padding: 20px 0px 20px 0px;
+  }
+
+  .header-box{
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+  }
+  .signupbox{
+    margin: 10px 0 0 0;
+  }
+  .signup{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    /* background-color: red; */
+  width:300px;
+  }
+  .signupbox a{
+    text-align: center;
+
+  }
     .press,
   .quote-indicators,
   .header-box,
@@ -513,30 +545,7 @@ body{
   font-size:17px;
 line-height:28px;
 }
-.duet img{
-  padding-bottom: 40px;
-/* width:60px; */
-}
 
-.header{
-  padding: 20px 0px 20px 0px;
-}
-.header-box{
-  flex-wrap:wrap;
-  justify-content:center;
-  align-items: center;
-}
-.signupbox{
-  margin: 10px 0 0 0;
-}
-.signup{
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  /* background-color: red; */
-width:300px;
-}
 
 .hero{
  margin-top:30px;
@@ -560,14 +569,7 @@ margin-bottom:30px;
     width:240px;
   margin-top: 20px;
 }
-.signup{
-    /* background-color: blue; */
-}
-.signupbox a{
-  text-align: center;
-  /* background-color: red; */
-  /* display: block; */
-}
+
 .quoteblock1{
     justify-content: space-between;
 }
